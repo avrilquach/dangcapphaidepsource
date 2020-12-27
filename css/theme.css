@@ -2122,7 +2122,7 @@ img {
   height: 45px;
   border-radius: 5px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #555555;
   text-transform: uppercase;
   border: 1px solid #444444;
@@ -2251,13 +2251,14 @@ img {
   margin-right: 10px;
 }
 .product .left {
-  width: 660px;
+  width: 650px;
   margin-right: 20px;
   color: #666666;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   align-self: flex-start;
+  left: 0;
 }
 .product .left .gallery .owl-nav {
   position: relative;
@@ -2291,7 +2292,10 @@ img {
   margin: 0 auto;
 }
 .product .left .gallery #big .item.video {
-  margin-top: 50px;
+  /* margin-top: 50px;
+  margin-left: -30px; */
+  margin: 10px auto 0 10px;
+  max-width: fit-content;
 }
 .product .left .gallery #thumbs {
   width: 400px;
