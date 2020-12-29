@@ -217,8 +217,8 @@ img {
 }
 
 .menu {
-  border-top: 1px solid #106909;
-  border-bottom: 1px solid #106909;
+  border-top: 1px solid #6c757d;
+  border-bottom: 1px solid #6c757d;
 }
 .menu ul > li {
   padding: 10px 0;
@@ -2122,7 +2122,7 @@ img {
   height: 45px;
   border-radius: 5px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #555555;
   text-transform: uppercase;
   border: 1px solid #444444;
@@ -2251,13 +2251,14 @@ img {
   margin-right: 10px;
 }
 .product .left {
-  width: 660px;
+  width: 650px;
   margin-right: 20px;
   color: #666666;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   align-self: flex-start;
+  left: 0;
 }
 .product .left .gallery .owl-nav {
   position: relative;
@@ -2291,7 +2292,10 @@ img {
   margin: 0 auto;
 }
 .product .left .gallery #big .item.video {
-  margin-top: 50px;
+  /* margin-top: 50px;
+  margin-left: -30px; */
+  margin: 10px auto 0 10px;
+  max-width: fit-content;
 }
 .product .left .gallery #thumbs {
   width: 400px;
@@ -2494,7 +2498,7 @@ img {
   margin-bottom: 25px;
   background: #fff;
   border-radius: 5px;
-  padding: 15px 40px;
+  padding: 20px 40px;
 }
 .timkiemnhieunhat .owl-nav .owl-next {
   background: url("../img/right.svg") no-repeat;
@@ -2515,10 +2519,10 @@ img {
   text-indent: -9999px;
 }
 .timkiemnhieunhat .item {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .timkiemnhieunhat a {
-  padding: 15px;
+  padding: 10px 15px;
   background: #FFFFFF;
   border: 1px solid #C0C0C0;
   border-radius: 40px;
@@ -2622,16 +2626,16 @@ img {
   width: 491px;
 }
 .styleproduct .style {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .styleproduct a.xtc {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  color: #000;
+  color: #545454;
   text-decoration: underline;
 }
 .styleproduct h2 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   position: relative;
   padding-left: 50px;
