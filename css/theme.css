@@ -2887,10 +2887,10 @@ img {
   text-align: center;
   cursor: pointer;
 }
-.reviewvote .choose-star ul li:hover {
+.reviewvote .choose-star ul li:hover, .reviewvote .choose-star ul li.active {
   background: url("../img/Star6.svg") no-repeat;
 }
-.reviewvote .choose-star ul li:hover ~ li {
+.reviewvote .choose-star ul li:hover ~ li, .reviewvote .choose-star ul li.active ~ li {
   background: url("../img/Star6.svg") no-repeat;
 }
 .reviewvote .choose-star img {

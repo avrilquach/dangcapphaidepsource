@@ -209,4 +209,10 @@ $(document).ready(function() {
 			}
 		}
 	})
+	$(".choose-star li").click(function(e){
+		$(".choose-star li").removeClass("active");
+		var data = $(this).attr("data-value");
+		$(this).addClass("active");
+		$(".choose-star input[name='rating']").val(data);
+	})
 })
