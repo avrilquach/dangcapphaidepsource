@@ -20,7 +20,7 @@ $(document).ready(function() {
 			nav: true,
 			autoplay: true,
 	});
-	$('#header .menu ul > li.first').hover(
+	$('#header .menu ul > li.dropdown').hover(
 			function() {
 					$(".bg_header").show();
 			},
@@ -194,5 +194,19 @@ $(document).ready(function() {
 	})
 	$(".sort_sapxep span").click(function(e){
 		$(this).parent().toggleClass("active");
+	})
+	$(".box-fiter-price span").click(function(e){
+		var html = $(this).html();
+		var id = $(this).attr("class");
+		var loadprice = "<div id="+id+" class='item' ><span class='top'>"+html+"</span></div>"
+		var checkhtml = $(".load-price #"+id).find("span.top").html();
+		if(checkhtml === undefined){
+			$(".load-price").append(loadprice);
+		}
+		else{
+			if(checkhtml === html){
+				$("#"+id).remove();
+			}
+		}
 	})
 })

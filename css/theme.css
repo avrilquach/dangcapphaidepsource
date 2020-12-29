@@ -2292,9 +2292,9 @@ img {
   margin: 0 auto;
 }
 .product .left .gallery #big .item.video {
-  /* margin-top: 50px;
-  margin-left: -30px; */
   margin: 10px auto 0 10px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
   max-width: fit-content;
 }
 .product .left .gallery #thumbs {
@@ -3507,6 +3507,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  clear: both;
 }
 .sidebar_thuonghieu .box-filter .box-filter-2 #price_from, .sidebar_thuonghieu .box-filter .box-filter-2 #price_to {
   background: #FFFFFF;
@@ -3577,6 +3578,19 @@ img {
   display: block;
   left: -20px;
   top: 32px;
+}
+.sort .sort_thuonghieu.active .box-open .content {
+  overflow-y: scroll;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.sort .sort_thuonghieu.active .box-open .content::-webkit-scrollbar {
+  width: 4px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+}
+.sort .sort_thuonghieu.active .box-open .content::-webkit-scrollbar-thumb {
+  background-color: #494949;
 }
 .sort .sort_sapxep {
   position: relative;
@@ -3714,6 +3728,141 @@ img {
 }
 ._form_search input[type=text]:focus ~ .box-open {
   display: block;
+}
+
+.top_thuong_hieu {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.top_thuong_hieu .right {
+  width: calc(100% - 800px);
+  padding: 10px 20px 10px 30px;
+}
+.top_thuong_hieu .right .content {
+  padding: 0 20px 0 0;
+  height: 325px;
+  overflow-y: scroll;
+  text-align: justify;
+}
+.top_thuong_hieu .right .content img {
+  margin-bottom: 5px;
+}
+.top_thuong_hieu .right .content::-webkit-scrollbar {
+  width: 4px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+}
+.top_thuong_hieu .right .content::-webkit-scrollbar-thumb {
+  background-color: #494949;
+}
+.top_thuong_hieu .right .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+}
+.top_thuong_hieu .right .content p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+}
+.top_thuong_hieu .left {
+  width: 800px;
+  position: relative;
+}
+.top_thuong_hieu .left #thumbs {
+  position: absolute;
+  bottom: 10px;
+}
+.top_thuong_hieu .left #thumbs .owl-item {
+  width: 64px !important;
+  height: 58px;
+  margin: 0 0 0 15px;
+}
+.top_thuong_hieu .left #thumbs .owl-item .item {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+}
+.top_thuong_hieu .left #thumbs .owl-item .item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.top_thuong_hieu .left #thumbs .owl-item .item img {
+  width: 60px !important;
+  height: 45px;
+}
+.top_thuong_hieu .left #thumbs .owl-item .item .play {
+  position: absolute;
+  top: 14px;
+}
+.top_thuong_hieu .left #thumbs .owl-item .item .play img {
+  width: 20px;
+  height: 20px;
+}
+
+.tag {
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.tag a.xtc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: underline;
+}
+.tag ul {
+  display: flex;
+  padding-bottom: 5px;
+}
+.tag ul li {
+  display: flex;
+  padding: 10px;
+}
+.tag ul li a {
+  padding: 15px 25px;
+  display: inline-flex;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.tag ul li a.black {
+  background: linear-gradient(90.33deg, #C7C7C7 3.36%, #9B9B9B 97.72%);
+  border-radius: 5px;
+}
+.tag ul li a.blue {
+  background: linear-gradient(90.33deg, #B2CFD8 3.36%, #87ADB7 97.72%);
+  border-radius: 5px;
+}
+.tag ul li a.green {
+  background: linear-gradient(90.33deg, #99C596 3.36%, #C1DFC4 97.72%);
+  border-radius: 5px;
+}
+.tag ul li a.red {
+  background: linear-gradient(90.33deg, #FEADA6 3.36%, #F5576C 97.72%);
+  border-radius: 5px;
+}
+
+.load-price .item {
+  float: left;
+  border: 0.5px solid #545353;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+.load-price .item span {
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 @media (max-width: 1280px) {
