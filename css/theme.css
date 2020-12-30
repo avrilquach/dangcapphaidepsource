@@ -2888,10 +2888,7 @@ img {
   text-align: center;
   cursor: pointer;
 }
-.reviewvote .choose-star ul li:hover, .reviewvote .choose-star ul li.active {
-  background: url("../img/Star6.svg") no-repeat;
-}
-.reviewvote .choose-star ul li:hover ~ li, .reviewvote .choose-star ul li.active ~ li {
+.reviewvote .choose-star ul li:hover, .reviewvote .choose-star ul li.active, .reviewvote .choose-star ul li:hover ~ li, .reviewvote .choose-star ul li.active ~ li {
   background: url("../img/Star6.svg") no-repeat;
 }
 .reviewvote .choose-star img {
@@ -3816,6 +3813,7 @@ img {
   margin-bottom: 10px;
   text-align: center;
   padding: 10px;
+  display: inline-block;
 }
 .tag a.xtc {
   font-size: 16px;
@@ -3824,12 +3822,13 @@ img {
   text-decoration: underline;
 }
 .tag ul {
-  display: flex;
   padding-bottom: 5px;
+  display: inline-block;
 }
 .tag ul li {
   display: flex;
   padding: 10px;
+  float: left;
 }
 .tag ul li a {
   padding: 15px 25px;
@@ -3871,6 +3870,6 @@ img {
     width: 1280px !important;
   }
 }
-.top_thuong_hieu .owl-carousel .owl-item img{
-  height:340px;
+.top_thuong_hieu .owl-carousel .owl-item img {
+  height: 340px;
 }
