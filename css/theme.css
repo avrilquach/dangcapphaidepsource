@@ -3871,3 +3871,6 @@ img {
     width: 1280px !important;
   }
 }
+.top_thuong_hieu .owl-carousel .owl-item img{
+  height:340px;
+}
