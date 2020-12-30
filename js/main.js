@@ -215,4 +215,8 @@ $(document).ready(function() {
 		$(this).addClass("active");
 		$(".choose-star input[name='rating']").val(data);
 	})
+	$(".tag a.xtc").click(function(e){
+		$(".tag ul").css("height","auto");
+		$(".tag ul").css("overflow","unset");
+	})
 })
