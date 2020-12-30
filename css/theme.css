@@ -217,8 +217,8 @@ img {
 }
 
 .menu {
-  border-top: 1px solid #6c757d;
-  border-bottom: 1px solid #6c757d;
+  border-top: 1px solid #969494;
+  border-bottom: 1px solid #969494;
 }
 .menu ul > li {
   padding: 10px 0;
@@ -361,11 +361,12 @@ img {
 }
 ._breadcrumb ul li a {
   color: #444444;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 ._breadcrumb ul li a img {
   margin-right: 10px;
+  width: 16px;
 }
 ._breadcrumb ul li::after {
   content: "/";
@@ -448,7 +449,7 @@ img {
 }
 
 .sidebar {
-  width: 350px;
+  width: 300px;
   background-color: #fff;
   border-radius: 4px;
   padding: 16px;
@@ -683,7 +684,7 @@ img {
   margin-left: 20px;
   background: #fff;
   border-radius: 4px;
-  width: 880px;
+  width: 930px;
   padding: 20px;
 }
 .main_right h4 {
@@ -705,8 +706,8 @@ img {
 }
 .main_right .san_pham_da_xem_2 .item .inner img.product {
   margin: 0 auto 5px auto;
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   display: block;
 }
 .main_right .san_pham_da_xem_2 .item .inner .title {
@@ -3394,8 +3395,8 @@ img {
 .main_right_thuonghieu .san_pham_da_xem_2 .item {
   background: #fff;
   border: none;
-  width: 23%;
-  margin: 0 1% 15px 1%;
+  width: 23.7%;
+  margin: 0 0 10px 10px;
 }
 .main_right_thuonghieu .pager2 {
   background: #FFFFFF;
@@ -3459,7 +3460,7 @@ img {
   display: none;
 }
 .sidebar_thuonghieu .box-filter .box-filter-2.top {
-  border-bottom: 0.5px dashed #BABABA;
+  border-bottom: 1px dashed #f5f5f5;
 }
 .sidebar_thuonghieu .box-filter .box-filter-2:last-child.top {
   border-bottom: none;
@@ -3513,7 +3514,7 @@ img {
   background: #FFFFFF;
   border: 0.5px solid #545353;
   border-radius: 3px;
-  width: 140px;
+  width: 130px;
   height: 35px;
   font-size: 15px;
   font-weight: 300;
@@ -3561,7 +3562,7 @@ img {
   border-radius: 5px;
   background: #fff;
   padding: 10px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   position: relative;
 }
 .sort span.top {
