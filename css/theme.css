@@ -366,7 +366,8 @@ img {
 }
 ._breadcrumb ul li a img {
   margin-right: 10px;
-  width: 16px;
+  width: 14px;
+  margin-top: -5px;
 }
 ._breadcrumb ul li::after {
   content: "/";
@@ -1725,7 +1726,7 @@ img {
   margin: 0 auto 30px auto;
 }
 .thongtinsanpham .box-buy span.title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   display: block;
   margin-bottom: 5px;
@@ -1972,7 +1973,6 @@ img {
   color: #212121;
   overflow: hidden;
   line-height: 30px;
-  margin-bottom: 10px;
 }
 .product .right .mua-chung h4 {
   font-size: 20px;
@@ -2082,7 +2082,7 @@ img {
   border-bottom: 1px solid #B6B6B6;
 }
 .product .right .promotions li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .product .right .promotions .img {
   width: 25px;
@@ -2166,6 +2166,9 @@ img {
   -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
+.description{
+  margin-top: 15px;
+}
 .product .right .description li {
   font-size: 16px;
   font-weight: 300;
@@ -2183,7 +2186,8 @@ img {
   max-width: 65%;
 }
 .product .right .size {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-top: 15px;
 }
 .product .right .size span {
   font-size: 16px;
@@ -2810,6 +2814,7 @@ img {
   background: #F5F5F5;
   border-top: 1px solid #D1D1D1;
   border-radius: 0px 0px 5px 5px;
+  border-bottom: 1px solid #D1D1D1;
 }
 .comments-review .options .input {
   background: #FFFFFF;
@@ -3457,7 +3462,7 @@ img {
   display: none;
 }
 .sidebar_thuonghieu .box-filter .box-filter-2.top {
-  border-bottom: 1px dashed #f5f5f5;
+  border-bottom: 1px dashed #e8e8e8;
 }
 .sidebar_thuonghieu .box-filter .box-filter-2:last-child.top {
   border-bottom: none;
@@ -3827,14 +3832,15 @@ img {
 }
 .tag ul li {
   display: flex;
-  padding: 10px;
+  padding: 10px 5px;
   float: left;
 }
 .tag ul li a {
-  padding: 15px 25px;
+  padding: 10px 15px;
   display: inline-flex;
-  font-size: 16px;
+  font-size: 15px;
   color: #FFFFFF;
+  font-weight: 300;
 }
 .tag ul li a.black {
   background: linear-gradient(90.33deg, #C7C7C7 3.36%, #9B9B9B 97.72%);
