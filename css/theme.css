@@ -2166,7 +2166,6 @@ img {
   -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
-
 .product .right .description li {
   font-size: 16px;
   font-weight: 300;
@@ -3830,15 +3829,22 @@ img {
 }
 .tag ul li {
   display: flex;
-  padding: 10px 5px;
+  padding: 10px 5px 0 5px;
   float: left;
+  width: 145px;
+  justify-content: center;
+  align-items: center;
 }
 .tag ul li a {
   padding: 10px 15px;
-  display: inline-flex;
+  display: block;
   font-size: 15px;
   color: #FFFFFF;
   font-weight: 300;
+  width: 100%;
+  height: 65px;
+  overflow: hidden;
+  text-align: center;
 }
 .tag ul li a.black {
   background: linear-gradient(90.33deg, #C7C7C7 3.36%, #9B9B9B 97.72%);
@@ -3876,4 +3882,62 @@ img {
 }
 .top_thuong_hieu .owl-carousel .owl-item img {
   height: 340px;
+}
+
+.top_account ul li:hover {
+  background: #F1F1F1;
+}
+
+@media (min-width: 1900px) {
+  body ._container {
+    width: 1440px;
+  }
+
+  .partner ul li {
+    width: 141px;
+  }
+
+  .contentproduct .item {
+    width: 269px;
+  }
+
+  .styleproduct .banner-left {
+    width: 555px;
+  }
+
+  .contentproduct.contentproduct_right {
+    width: calc(100% - 558px);
+  }
+
+  .contentproduct .item .inner img.product {
+    height: 246px;
+  }
+
+  .timkiemnhieunhat .owl-item:last-child {
+    display: none;
+  }
+
+  .main_right, .main_right2 {
+    width: 1040px;
+  }
+
+  .menu ul > li .open {
+    width: 1410px;
+  }
+
+  .product .right {
+    width: 700px;
+  }
+
+  .thongtinsanpham .left .content {
+    width: 988px;
+  }
+
+  .sidebar_right {
+    width: 455px;
+  }
+
+  .main_left {
+    width: 935px;
+  }
 }
