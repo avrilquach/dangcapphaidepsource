@@ -402,7 +402,7 @@ img {
 .contentproduct .item {
   float: left;
   width: 237px;
-  margin: 0 7.5px 15px 7.5px;
+  margin: 0 7.5px 0px 7.5px;
   border-radius: 5px;
   background: #fff;
 }
@@ -714,17 +714,17 @@ img {
   position: relative;
 }
 .tag_promotion{
-  width: 45px;
-  border: 1px solid #636363;
-  border-radius: 30px;
-  position: absolute;
-  z-index: 99;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  font-size: 13px;
-  padding: 2px 0;
-  height: 23px;
+    width: auto;
+    border: 1px solid #636363;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 99;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    padding: 2px 5px;
+    align-items: center;
 }
 .main_right .san_pham_da_xem_2 .item .inner img.product {
   margin: 0 auto 5px auto;
@@ -2546,7 +2546,7 @@ img {
   background: #FFFFFF;
   border: 1px solid #C0C0C0;
   border-radius: 40px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #000;
   display: block;
@@ -2641,7 +2641,9 @@ img {
 .bannerproduct a {
   width: 49%;
 }
-
+.styleproduct{
+  margin-top: 20px;
+}
 .styleproduct .banner-left {
   width: 491px;
 }
@@ -3926,7 +3928,7 @@ img {
   }
 
   .styleproduct .banner-left {
-    width: 555px;
+    /* width: 491px; */
   }
 
   .contentproduct.contentproduct_right {
