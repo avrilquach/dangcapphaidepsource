@@ -109,7 +109,7 @@ img {
   position: relative;
 }
 ._form_search input[type=text] {
-  width: 500px;
+  width: 650px;
   background: #FFFFFF;
   border: 0.5px solid #797979;
   border-radius: 40px;
@@ -118,6 +118,11 @@ img {
   color: #666666;
   font-size: 16px;
   font-weight: 300;
+}
+@media(max-width:1600px) and (min-width:1200px){
+  ._form_search input[type=text] {
+    width:500px;
+  }
 }
 ._form_search input[type=text]::placeholder {
   color: #666666;
@@ -406,21 +411,20 @@ img {
 }
 .contentproduct .item .inner img.product {
   margin: 0 auto 5px auto;
-  width: 230px;
-  height: 198px;
+  width: 260px;
+  height: 260px;
   display: block;
 }
 .contentproduct .item .inner .title {
   font-size: 14px;
   font-weight: 300;
   color: #000000;
-  margin-bottom: 5px;
-  height: 46px;
+  height: 40px;
   overflow: hidden;
   display: block;
 }
 .contentproduct .item .inner .star {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 .contentproduct .item .inner .star img {
   margin-right: 5px;
@@ -438,6 +442,9 @@ img {
   color: #C3C3C3;
   -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
+}
+.contentproduct .item a span{
+  color: #212121;
 }
 .contentproduct .item a.addtocart, .contentproduct .item a.write {
   background: #FFE0E9;
@@ -707,8 +714,8 @@ img {
 }
 .main_right .san_pham_da_xem_2 .item .inner img.product {
   margin: 0 auto 5px auto;
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   display: block;
 }
 .main_right .san_pham_da_xem_2 .item .inner .title {
@@ -1683,6 +1690,7 @@ img {
   font-size: 16px;
   font-weight: 300;
   color: #000;
+  background: rgba(255, 255, 255, 0.6);
 }
 .thongtinsanpham .left .show-data .hide-data {
   display: none;
@@ -2068,7 +2076,7 @@ img {
 .product .right .mua-chung .img-product .item::after {
   content: "+";
   position: absolute;
-  right: -25px;
+  right: -35px;
   top: 65px;
   font-size: 16px;
   font-weight: 400;
@@ -2678,7 +2686,7 @@ img {
 }
 
 .comments-area {
-  width: 1000px;
+  width: 1300px;
 }
 .comments-area .l {
   margin-bottom: 10px;
@@ -2752,7 +2760,7 @@ img {
 }
 
 .box-comments {
-  width: 1000px;
+  width: 1300px;
   padding: 20px 0;
 }
 .box-comments button {
@@ -2794,7 +2802,7 @@ img {
   background: #FFFFFF;
   border: 1px solid #D1D1D1;
   border-radius: 5px;
-  width: 1000px;
+  width: 1300px;
   height: 214px;
 }
 .comments-review .comments {
@@ -2870,7 +2878,7 @@ img {
 }
 
 .reviewvote {
-  width: 1000px;
+  width: 1300px;
 }
 .reviewvote span.title {
   font-size: 20px;
@@ -2884,7 +2892,7 @@ img {
 }
 .reviewvote .choose-star ul li {
   background: url("../img/Star7.svg") no-repeat;
-  width: 47px;
+  width: 60px;
   padding-top: 60px;
   margin: 0 10px;
   text-align: center;
@@ -3360,7 +3368,7 @@ img {
   height: 45px;
   position: absolute;
   top: 40%;
-  right: -30px;
+  right: 35px;
   text-indent: -9999px;
 }
 .productslider .owl-nav .owl-prev {
@@ -3369,7 +3377,7 @@ img {
   height: 45px;
   position: absolute;
   top: 40%;
-  left: -30px;
+  left: 35px;
   text-indent: -9999px;
 }
 
@@ -3910,7 +3918,7 @@ img {
   }
 
   .contentproduct .item .inner img.product {
-    height: 246px;
+    height: 260px;
   }
 
   .timkiemnhieunhat .owl-item:last-child {
