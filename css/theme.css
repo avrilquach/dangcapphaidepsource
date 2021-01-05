@@ -718,7 +718,7 @@ img {
   border: 1px solid #636363;
   border-radius: 30px;
   position: absolute;
-  z-index: 999;
+  z-index: 99;
   justify-content: center;
   text-align: center;
   display: block;
@@ -3600,6 +3600,7 @@ img {
   display: block;
   left: -20px;
   top: 32px;
+  z-index: 999;
 }
 .sort .sort_thuonghieu.active .box-open .content {
   overflow-y: scroll;
@@ -3622,6 +3623,7 @@ img {
   right: -20px;
   top: 32px;
   width: 235px;
+  z-index: 999;
 }
 .sort label {
   font-size: 15px;
