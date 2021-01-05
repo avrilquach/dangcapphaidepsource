@@ -411,8 +411,8 @@ img {
 }
 .contentproduct .item .inner img.product {
   margin: 0 auto 5px auto;
-  width: 260px;
-  height: 260px;
+  width: 212px;
+  height: 212px;
   display: block;
 }
 .contentproduct .item .inner .title {
@@ -3934,7 +3934,7 @@ img {
   }
 
   .contentproduct .item .inner img.product {
-    height: 260px;
+    height: 212px;
   }
 
   .timkiemnhieunhat .owl-item:last-child {
