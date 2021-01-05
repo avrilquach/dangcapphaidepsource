@@ -711,6 +711,20 @@ img {
 }
 .main_right .san_pham_da_xem_2 .item .inner {
   padding: 10px;
+  position: relative;
+}
+.tag_promotion{
+  width: 45px;
+  border: 1px solid #636363;
+  border-radius: 30px;
+  position: absolute;
+  z-index: 999;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  padding: 2px 0;
+  height: 23px;
 }
 .main_right .san_pham_da_xem_2 .item .inner img.product {
   margin: 0 auto 5px auto;
