@@ -789,9 +789,9 @@ img {
   margin-bottom: 5px;
 }
 .main_right .san_pham_da_xem .item .left .text span.title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  color: #106909;
+  color: #000;
   margin-bottom: 5px;
   display: block;
 }
