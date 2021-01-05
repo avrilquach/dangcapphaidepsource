@@ -582,9 +582,9 @@ img {
   width: 67px;
   font-size: 14px;
   font-weight: 300;
-  color: #106909;
+  color: #000;
   background: #FFFFFF;
-  border: 1px solid #106909;
+  border: 1px solid #636363;
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -3004,7 +3004,7 @@ img {
 }
 
 .lichsugiaodich {
-  padding: 50px 100px;
+  padding: 50px 40px;
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -3133,12 +3133,12 @@ img {
   content: "";
   position: absolute;
   border: 1px solid #106909;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background: #106909;
   border-radius: 50%;
-  left: 6px;
-  top: 6px;
+  left: 8px;
+  top: 8px;
 }
 .hangdiemhientai .diem {
   position: relative;
@@ -3179,12 +3179,12 @@ img {
   content: "";
   position: absolute;
   border: 1px solid #106909;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background: #106909;
   border-radius: 50%;
-  left: 6px;
-  top: 6px;
+  left: 8px;
+  top: 8px;
 }
 .hangdiemhientai .head {
   margin-bottom: 10px;
