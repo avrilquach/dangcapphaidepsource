@@ -736,13 +736,9 @@ img {
   font-size: 14px;
   font-weight: 300;
   color: #000000;
-  margin-bottom: 5px;
-  height: 46px;
+  height: 40px;
   overflow: hidden;
   display: block;
-}
-.main_right .san_pham_da_xem_2 .item .inner .star {
-  margin-bottom: 5px;
 }
 .main_right .san_pham_da_xem_2 .item .inner .star img {
   margin-right: 5px;
@@ -1426,7 +1422,7 @@ img {
   margin-bottom: 0;
 }
 .diachinhanhang .boxship .box1, .diachinhanhang .boxship .box3 {
-  padding: 10px 10px 0 10px;
+  padding: 15px 10px 10px 10px;
 }
 .diachinhanhang .boxship .box2 {
   background: #F0F0F0;
@@ -1888,7 +1884,7 @@ img {
   border: 1px solid #106909;
   border-radius: 100%;
   background: #fff;
-  border: 1px solid #CECECE;
+  border: 1px solid #636363;
 }
 .style1 [type=radio]:checked + label:after {
   content: "";
@@ -3855,7 +3851,7 @@ img {
   display: flex;
   padding: 10px 5px 0 5px;
   float: left;
-  width: 145px;
+  width: 153px;
   justify-content: center;
   align-items: center;
 }
