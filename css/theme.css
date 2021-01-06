@@ -186,7 +186,7 @@ img {
   overflow-y: scroll;
 }
 .boxscroll::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
   background-color: #EDEDED;
   border-radius: 5px;
 }
@@ -3616,7 +3616,7 @@ img {
   border-radius: 5px;
 }
 .sort .sort_thuonghieu.active .box-open .content::-webkit-scrollbar-thumb {
-  background-color: #494949;
+  background-color: #FFC5C5;
 }
 .sort .sort_sapxep {
   position: relative;
@@ -3777,12 +3777,12 @@ img {
   margin-bottom: 5px;
 }
 .top_thuong_hieu .right .content::-webkit-scrollbar {
-  width: 4px;
-  background-color: #d6d6d6;
+  width: 1px;
+  background-color: #c5c5c5;
   border-radius: 5px;
 }
 .top_thuong_hieu .right .content::-webkit-scrollbar-thumb {
-  background-color: #494949;
+  background-color: #FFC5C5;
 }
 .top_thuong_hieu .right .content h1 {
   font-size: 15px;
