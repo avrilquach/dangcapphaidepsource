@@ -3995,9 +3995,143 @@ img {
     margin: 0 0.5% 15px 0.5%;
   }
 }
+.feed .right {
+  width: 280px;
+  background: #FFFFFF;
+  border: 0.5px solid #D5D5D5;
+  border-radius: 5px;
+}
+.feed .noibattrongtuan {
+  margin-bottom: 20px;
+}
+.feed .noibattrongtuan h3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.feed .noibattrongtuan ul {
+  display: flex;
+  margin: 0 -1%;
+}
+.feed .noibattrongtuan ul li {
+  width: 23%;
+  margin: 0 1%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 69.79%, rgba(0, 0, 0, 0.6) 100%);
+  border: 0.5px solid #D4D4D4;
+  border-radius: 5px;
+  position: relative;
+}
+.feed .noibattrongtuan ul li span {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+.feed .guibinhluan {
+  background: #FFFFFF;
+  border: 0.5px solid #D4D4D4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.feed .guibinhluan .formguibinhluan {
+  display: flex;
+  align-items: center;
+}
+.feed .guibinhluan .formguibinhluan .name img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.feed .guibinhluan .formguibinhluan .options {
+  width: calc(100% - 69px);
+  margin-left: 15px;
+}
+.feed .guibinhluan .formguibinhluan .options input[type=text] {
+  width: 100%;
+  background: #F0F2F5;
+  border-radius: 40px;
+  height: 45px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  color: #929292;
+  border: none;
+  padding: 0 10px;
+}
+.feed .key-word {
+  padding: 15px;
+}
+.feed .key-word h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.feed .key-word ul li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.feed .key-word ul li a {
+  background: #F5F5F5;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: block;
+  color: #000;
+}
+.feed .baiviet {
+  margin-bottom: 20px;
+}
+.feed .binhluan .list .reply {
+  padding-left: 60px;
+}
+.feed .binhluan .list .personal, .feed .binhluan .list .reply {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.feed .binhluan .list .personal .img, .feed .binhluan .list .reply .img {
+  width: 45px;
+  height: 45px;
+}
+.feed .binhluan .list .personal .text, .feed .binhluan .list .reply .text {
+  width: calc(100% - 60px);
+  margin-left: 15px;
+}
+.feed .binhluan .list .personal .text .bg, .feed .binhluan .list .reply .text .bg {
+  background: #F0F2F5;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.feed .binhluan .list .personal .text .bg .name, .feed .binhluan .list .reply .text .bg .name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.feed .binhluan .list .personal .text .bg .bl, .feed .binhluan .list .reply .text .bg .bl {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+.feed .binhluan .list .personal .text .options, .feed .binhluan .list .reply .text .options {
+  margin-top: 5px;
+}
+.feed .binhluan .list .personal .text .options a, .feed .binhluan .list .reply .text .options a {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3a3a3a;
+}
 .feed .binhluan .form {
   display: flex;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .feed .binhluan .form .name {
   width: 45px;
@@ -4014,6 +4148,21 @@ img {
   width: calc(100% - 60px);
   margin-left: 15px;
   position: relative;
+}
+.feed .binhluan .form .options .file {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 45px;
+}
+.feed .binhluan .form .options .file #avatar {
+  opacity: 0;
+}
+.feed .binhluan .form .options .file img {
+  position: absolute;
+  top: 12px;
+  right: 25px;
 }
 .feed .binhluan .form .options input[type=text] {
   width: 100%;
@@ -4040,6 +4189,15 @@ img {
 .feed .center .baiviet .picture {
   padding: 10px 0;
   clear: both;
+}
+.feed .center .baiviet .picture .col2 {
+  width: 49%;
+}
+.feed .center .baiviet .picture .row {
+  margin-bottom: 2%;
+}
+.feed .center .baiviet .picture .row:last-child {
+  margin-bottom: 0;
 }
 .feed .center .baiviet .count {
   border-top: 1px solid #C8C8C8;
@@ -4103,22 +4261,22 @@ img {
   width: 45px;
   height: 45px;
 }
-.feed .left, .feed .right {
+.feed .left {
   width: 280px;
   background: #FFFFFF;
   border: 0.5px solid #D5D5D5;
   border-radius: 5px;
 }
-.feed .left ul, .feed .right ul {
+.feed .left ul {
   padding: 30px;
 }
-.feed .left ul:first-child, .feed .right ul:first-child {
+.feed .left ul:first-child {
   border-bottom: 1px solid #E3E3E3;
 }
-.feed .left ul li, .feed .right ul li {
+.feed .left ul li {
   padding: 10px 0;
 }
-.feed .left ul li a, .feed .right ul li a {
+.feed .left ul li a {
   font-family: Nunito;
   font-size: 16px;
   font-weight: 400;
@@ -4126,11 +4284,11 @@ img {
   display: flex;
   align-items: center;
 }
-.feed .left ul li a .img, .feed .right ul li a .img {
+.feed .left ul li a .img {
   width: 22px;
   margin-right: 20px;
 }
-.feed .left ul li a .text, .feed .right ul li a .text {
+.feed .left ul li a .text {
   width: 22px;
   height: 22px;
   margin-right: 22px;
