@@ -119,11 +119,6 @@ img {
   font-size: 16px;
   font-weight: 300;
 }
-@media(max-width:1600px) and (min-width:1200px){
-  ._form_search input[type=text] {
-    width:500px;
-  }
-}
 ._form_search input[type=text]::placeholder {
   color: #666666;
   font-size: 16px;
@@ -147,6 +142,11 @@ img {
   height: 40px;
 }
 
+@media (max-width: 1600px) and (min-width: 1200px) {
+  ._form_search input[type=text] {
+    width: 500px;
+  }
+}
 ._cart {
   position: relative;
 }
@@ -443,10 +443,19 @@ img {
   -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
-.contentproduct .item a span, .contentproduct .item1 a span{
+.contentproduct .item a span, .contentproduct .item1 a span {
   color: #212121;
 }
-.contentproduct .item a.addtocart, .contentproduct .item a.write, .contentproduct .item1 a.addtocart, .contentproduct .item1 a.write {
+.contentproduct .item a.addtocart, .contentproduct .item a.write {
+  background: #FFE0E9;
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  height: 37px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contentproduct .item1 a.addtocart, .contentproduct .item1 a.write {
   background: #FFE0E9;
   border-radius: 0px 0px 5px 5px;
   width: 100%;
@@ -713,19 +722,21 @@ img {
   padding: 10px;
   position: relative;
 }
-.tag_promotion{
-    width: auto;
-    border: 1px solid #636363;
-    border-radius: 30px;
-    position: absolute;
-    z-index: 99;
-    justify-content: center;
-    text-align: center;
-    display: block;
-    font-size: 13px;
-    padding: 2px 5px;
-    align-items: center;
+
+.tag_promotion {
+  width: auto;
+  border: 1px solid #636363;
+  border-radius: 30px;
+  position: absolute;
+  z-index: 99;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  padding: 2px 5px;
+  align-items: center;
 }
+
 .main_right .san_pham_da_xem_2 .item .inner img.product {
   margin: 0 auto 5px auto;
   width: 250px;
@@ -1734,7 +1745,6 @@ img {
   background: #FFFFFF;
   border-radius: 5px;
   padding: 30px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -2092,11 +2102,6 @@ img {
   font-weight: 400;
   color: #000;
 }
-@media(max-width:1899.99px){
-  .product .right .mua-chung .img-product .item::after{
-    right: -27px;
-  }
-}
 .product .right .mua-chung .img-product .item:last-child::after {
   display: none;
 }
@@ -2319,7 +2324,6 @@ img {
 .product .left .gallery #big .item.video {
   margin: 10px auto 0 10px;
   max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
   max-width: fit-content;
 }
 .product .left .gallery #thumbs {
@@ -2355,6 +2359,11 @@ img {
   height: 100%;
 }
 
+@media (max-width: 1899.99px) {
+  .product .right .mua-chung .img-product .item::after {
+    right: -27px;
+  }
+}
 .partner {
   background: #fff;
   border-top: 1px solid #DBDBDB;
@@ -2646,7 +2655,8 @@ img {
 .bannerproduct a {
   width: 49%;
 }
-.styleproduct{
+
+.styleproduct {
   margin-top: 20px;
 }
 .styleproduct .banner-left {
@@ -3864,18 +3874,17 @@ img {
 }
 .tag ul li a {
   padding: 10px 0;
-    display: block;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 300;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-
+  display: block;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 300;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
 }
 .tag ul li a.black {
   background: linear-gradient(90.33deg, #C7C7C7 3.36%, #9B9B9B 97.72%);
@@ -3942,7 +3951,6 @@ img {
   .contentproduct.contentproduct_right {
     width: calc(100% - 495px);
   }
-
   .contentproduct .item .inner img.product {
     height: 212px;
   }
@@ -3986,4 +3994,150 @@ img {
     width: 24%;
     margin: 0 0.5% 15px 0.5%;
   }
+}
+.feed .binhluan .form {
+  display: flex;
+  padding: 10px 0;
+}
+.feed .binhluan .form .name {
+  width: 45px;
+  height: 45px;
+  background: #DBDBDB;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #636363;
+}
+.feed .binhluan .form .options {
+  width: calc(100% - 60px);
+  margin-left: 15px;
+  position: relative;
+}
+.feed .binhluan .form .options input[type=text] {
+  width: 100%;
+  background: #F0F2F5;
+  border-radius: 40px;
+  height: 45px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  color: #929292;
+  border: none;
+  padding: 0 10px;
+}
+.feed .center {
+  width: calc(100% - 560px);
+  padding: 0 20px;
+}
+.feed .center .baiviet {
+  background: #FFFFFF;
+  border: 0.5px solid #D5D5D5;
+  border-radius: 5px;
+  padding: 15px;
+}
+.feed .center .baiviet .picture {
+  padding: 10px 0;
+  clear: both;
+}
+.feed .center .baiviet .count {
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  padding: 10px 0;
+}
+.feed .center .baiviet .count .like {
+  margin-right: 20px;
+}
+.feed .center .baiviet .count span {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #414141;
+}
+.feed .center .baiviet .content p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.feed .center .baiviet .content ul li {
+  float: left;
+  margin-right: 10px;
+}
+.feed .center .baiviet .content ul li a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+.feed .center .baiviet .top .title {
+  width: calc(100% - 111px);
+  padding: 0 50px 0 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+.feed .center .baiviet .top .title .name {
+  font-weight: 600;
+}
+.feed .center .baiviet .top .title span.date {
+  font-weight: 300;
+  font-size: 14px;
+  color: #878787;
+  margin-left: 20px;
+}
+.feed .center .baiviet .top .avatar img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.feed .center .baiviet .top .nameproduct {
+  background: #FFFFFF;
+  border: 0.5px solid #D5D5D5;
+  border-radius: 5px;
+  padding: 5px;
+  height: 57px;
+}
+.feed .center .baiviet .top .nameproduct img {
+  width: 45px;
+  height: 45px;
+}
+.feed .left, .feed .right {
+  width: 280px;
+  background: #FFFFFF;
+  border: 0.5px solid #D5D5D5;
+  border-radius: 5px;
+}
+.feed .left ul, .feed .right ul {
+  padding: 30px;
+}
+.feed .left ul:first-child, .feed .right ul:first-child {
+  border-bottom: 1px solid #E3E3E3;
+}
+.feed .left ul li, .feed .right ul li {
+  padding: 10px 0;
+}
+.feed .left ul li a, .feed .right ul li a {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.feed .left ul li a .img, .feed .right ul li a .img {
+  width: 22px;
+  margin-right: 20px;
+}
+.feed .left ul li a .text, .feed .right ul li a .text {
+  width: 22px;
+  height: 22px;
+  margin-right: 22px;
+  border-radius: 50%;
+  background: #C4C4C4;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5B5B5B;
+  text-align: center;
 }
