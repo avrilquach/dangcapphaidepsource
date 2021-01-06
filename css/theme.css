@@ -396,26 +396,26 @@ img {
   width: calc(100% - 494px);
   margin-right: -5px;
 }
-.contentproduct.contentproduct_right .item {
+.contentproduct.contentproduct_right .item, .contentproduct.contentproduct_right .item1 {
   margin: 0 7.5px 15px 7.5px;
 }
-.contentproduct .item {
+.contentproduct .item, .contentproduct .item1 {
   float: left;
   width: 237px;
   margin: 0 7.5px 0px 7.5px;
   border-radius: 5px;
   background: #fff;
 }
-.contentproduct .item .inner {
+.contentproduct .item .inner, .contentproduct .item1 .inner {
   padding: 10px;
 }
-.contentproduct .item .inner img.product {
+.contentproduct .item .inner img.product, .contentproduct .item1 .inner img.product {
   margin: 0 auto 5px auto;
   width: 212px;
   height: 212px;
   display: block;
 }
-.contentproduct .item .inner .title {
+.contentproduct .item .inner .title, .contentproduct .item1 .inner .title {
   font-size: 14px;
   font-weight: 300;
   color: #000000;
@@ -423,30 +423,30 @@ img {
   overflow: hidden;
   display: block;
 }
-.contentproduct .item .inner .star {
+.contentproduct .item .inner .star, .contentproduct .item1 .inner .star {
   /* margin-bottom: 5px; */
 }
-.contentproduct .item .inner .star img {
+.contentproduct .item .inner .star img, .contentproduct .item1 .inner .star img {
   margin-right: 5px;
   width: auto;
 }
-.contentproduct .item .inner .price .new {
+.contentproduct .item .inner .price .new, .contentproduct .item1 .inner .price .new {
   font-size: 16px;
   font-weight: 300;
   color: #FF326C;
   margin-right: 20px;
 }
-.contentproduct .item .inner .price .old {
+.contentproduct .item .inner .price .old, .contentproduct .item1 .inner .price .old {
   font-size: 14px;
   font-weight: 300;
   color: #C3C3C3;
   -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
-.contentproduct .item a span{
+.contentproduct .item a span, .contentproduct .item1 a span{
   color: #212121;
 }
-.contentproduct .item a.addtocart, .contentproduct .item a.write {
+.contentproduct .item a.addtocart, .contentproduct .item a.write, .contentproduct .item1 a.addtocart, .contentproduct .item1 a.write {
   background: #FFE0E9;
   border-radius: 0px 0px 5px 5px;
   width: 100%;
@@ -3926,13 +3926,16 @@ img {
   .contentproduct .item {
     width: 269px;
   }
+  .contentproduct .item1 {
+    width: 290px;
+  }
 
   .styleproduct .banner-left {
     /* width: 491px; */
   }
 
   .contentproduct.contentproduct_right {
-    width: calc(100% - 558px);
+    width: calc(100% - 495px);
   }
 
   .contentproduct .item .inner img.product {
