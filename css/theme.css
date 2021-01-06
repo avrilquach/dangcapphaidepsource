@@ -2092,6 +2092,11 @@ img {
   font-weight: 400;
   color: #000;
 }
+@media(max-width:1899.99px){
+  .product .right .mua-chung .img-product .item::after{
+    right: -27px;
+  }
+}
 .product .right .mua-chung .img-product .item:last-child::after {
   display: none;
 }
@@ -2698,7 +2703,7 @@ img {
 }
 
 .comments-area {
-  width: 1300px;
+  width: 100%;
 }
 .comments-area .l {
   margin-bottom: 10px;
