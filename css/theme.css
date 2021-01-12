@@ -3998,7 +3998,7 @@ img {
 .feed .right {
   width: 280px;
   background: #FFFFFF;
-  border: 0.5px solid #D5D5D5;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
 }
 .feed .noibattrongtuan {
@@ -4018,7 +4018,7 @@ img {
   width: 23%;
   margin: 0 1%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 69.79%, rgba(0, 0, 0, 0.6) 100%);
-  border: 0.5px solid #D4D4D4;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
   position: relative;
 }
@@ -4035,7 +4035,7 @@ img {
 }
 .feed .guibinhluan {
   background: #FFFFFF;
-  border: 0.5px solid #D4D4D4;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
@@ -4182,7 +4182,7 @@ img {
 }
 .feed .center .baiviet {
   background: #FFFFFF;
-  border: 0.5px solid #D5D5D5;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
   padding: 15px;
 }
@@ -4200,8 +4200,8 @@ img {
   margin-bottom: 0;
 }
 .feed .center .baiviet .count {
-  border-top: 1px solid #C8C8C8;
-  border-bottom: 1px solid #C8C8C8;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
   padding: 10px 0;
 }
 .feed .center .baiviet .count .like {
@@ -4252,7 +4252,7 @@ img {
 }
 .feed .center .baiviet .top .nameproduct {
   background: #FFFFFF;
-  border: 0.5px solid #D5D5D5;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
   padding: 5px;
   height: 57px;
@@ -4264,7 +4264,7 @@ img {
 .feed .left {
   width: 280px;
   background: #FFFFFF;
-  border: 0.5px solid #D5D5D5;
+  border: 0.5px solid #ececec;
   border-radius: 5px;
 }
 .feed .left ul {
