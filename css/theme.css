@@ -43,10 +43,7 @@ img {
   padding: 10px 0;
 }
 
-.pad20_0 {
-  padding: 20px 0;
-}
-.pad15_0 {
+.pad20_0, .pad15_0 {
   padding: 20px 0;
 }
 
@@ -4002,6 +3999,7 @@ img {
   background: #FFFFFF;
   border: 0.5px solid #ececec;
   border-radius: 5px;
+  position: sticky;
 }
 .feed .noibattrongtuan {
   margin-bottom: 20px;
@@ -4019,21 +4017,21 @@ img {
 .feed .noibattrongtuan ul li {
   width: 23%;
   margin: 0 1%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 69.79%, rgba(0, 0, 0, 0.6) 100%);
   border: 0.5px solid #ececec;
   border-radius: 5px;
   position: relative;
 }
 .feed .noibattrongtuan ul li span {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
   font-size: 16px;
   text-align: center;
   color: #FFFFFF;
-  padding: 0 20px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 69.79%, rgba(0, 0, 0, 0.6) 100%);
 }
 .feed .guibinhluan {
   background: #FFFFFF;
@@ -4066,6 +4064,12 @@ img {
   color: #929292;
   border: none;
   padding: 0 10px;
+}
+.feed .bg {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  align-self: flex-start;
 }
 .feed .key-word {
   padding: 15px;
@@ -4269,6 +4273,12 @@ img {
   border: 0.5px solid #ececec;
   border-radius: 5px;
 }
+.feed .left .bg {
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky;
+  align-self: flex-start;
+}
 .feed .left ul {
   padding: 30px;
 }
@@ -4300,4 +4310,52 @@ img {
   font-weight: 400;
   color: #5B5B5B;
   text-align: center;
+}
+
+.profile {
+  background: linear-gradient(180deg, #FFF1F1 0%, #FFFFFF 100%);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.profile .top .img {
+  margin-right: 20px;
+}
+.profile .top .img img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  border: 5px solid #FFFFFF;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+}
+.profile .top .text span.name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  display: block;
+}
+.profile .top .text span.address {
+  font-weight: 300;
+  font-size: 16px;
+  color: #4A4A4A;
+  display: block;
+}
+.profile .top .text span.member {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+  display: block;
+}
+.profile .bottom {
+  border-top: 0.5px solid #D6D6D6;
+  padding: 20px 0;
+}
+.profile .bottom span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding: 0 60px;
+}
+.profile .bottom span.daphop {
+  border-left: 0.5px solid #D1D1D1;
+  border-right: 0.5px solid #D1D1D1;
 }
