@@ -1134,7 +1134,7 @@ img {
   margin-bottom: 15px;
 }
 .button #vnpay {
-  background: #444444;
+  background: #000;
   border: 1px solid #E1E1E1;
   border-radius: 5px;
   font-size: 20px;
@@ -1352,11 +1352,10 @@ img {
   display: none;
 }
 .thong_tin_tai_khoan .button {
-  margin-left: 200px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .thong_tin_tai_khoan .button .update {
-  background: #106909;
+  background: #000;
   border-radius: 5px;
   width: 170px;
   height: 45px;
