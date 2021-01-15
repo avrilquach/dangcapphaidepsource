@@ -734,7 +734,7 @@ img {
   border: 1px solid #636363;
   border-radius: 30px;
   position: absolute;
-  z-index: 99;
+  z-index: 2;
   justify-content: center;
   text-align: center;
   display: block;
