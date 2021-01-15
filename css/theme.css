@@ -475,7 +475,13 @@ img {
 .sidebar_right {
   width: 435px;
 }
-
+.top_account{
+  overflow: auto;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
 .top_account .box {
   border-bottom: 1px solid #E7E7E7;
   padding-bottom: 20px;
@@ -3020,7 +3026,7 @@ img {
 }
 
 .lichsugiaodich {
-  padding: 50px 40px;
+  padding: 20px 40px;
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -3110,7 +3116,7 @@ img {
 }
 
 .hangdiemhientai {
-  padding: 50px;
+  padding: 30px 50px;
   background: #FFFFFF;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -3463,8 +3469,21 @@ img {
 }
 
 .sidebar_thuonghieu {
+  overflow: auto;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
   padding: 0;
 }
+.dcpd_no_scrollbar {
+  scrollbar-width: none;
+ /*for fire fox*/
+}
+.dcpd_no_scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar_thuonghieu .box-filter {
   border-bottom: 1px solid #DBDBDB;
 }
