@@ -3639,7 +3639,7 @@ img {
   margin-bottom: 10px;
 }
 .sort .sort_thuonghieu.active .box-open .content::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
   background-color: #d6d6d6;
   border-radius: 5px;
 }
@@ -3707,7 +3707,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 0.5px solid #AAAAAA;
+  border-top: 0.5px solid #e6e6e6;
   padding-top: 20px;
 }
 .sort .button button {
