@@ -475,10 +475,10 @@ img {
 .sidebar_right {
   width: 435px;
 }
-.top_account{
+
+.top_account {
   overflow: auto;
   height: 100vh;
-  position: -webkit-sticky;
   position: sticky;
   top: 20px;
 }
@@ -3471,14 +3471,14 @@ img {
 .sidebar_thuonghieu {
   overflow: auto;
   height: 100vh;
-  position: -webkit-sticky;
   position: sticky;
   top: 5px;
   padding: 0;
 }
+
 .dcpd_no_scrollbar {
   scrollbar-width: none;
- /*for fire fox*/
+  /*for fire fox */
 }
 .dcpd_no_scrollbar::-webkit-scrollbar {
   display: none;
@@ -4217,6 +4217,30 @@ img {
 }
 .feed .center .baiviet .picture .col2 {
   width: 49%;
+}
+.feed .center .baiviet .picture .col2.last {
+  position: relative;
+}
+.feed .center .baiviet .picture .col2.last::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+.feed .center .baiviet .picture .col2.last .more {
+  font-size: 50px;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  color: #fff;
+  z-index: 88;
+  text-align: center;
 }
 .feed .center .baiviet .picture .row {
   margin-bottom: 2%;
