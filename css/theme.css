@@ -1057,6 +1057,16 @@ img {
   border-radius: 50%;
   background: #D4D4D4;
 }
+#header2 ul li::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #000000;
+  margin: 0 16px;
+}
+#header2 ul li:last-child::after {
+  display: none;
+}
 #header2 ul li.active .img {
   width: 45px;
   height: 45px;
@@ -1282,6 +1292,14 @@ img {
 }
 .tongcong .item {
   padding: 5px 0;
+}
+.tongcong .item2 {
+  margin: 10px 0 0 0;
+  padding: 10px 0 0 0;
+  border-top: 1px solid #E2E2E2;
+}
+.tongcong .item2 .color {
+  color: #FF326C;
 }
 
 .dichvukemtheo .box2 {
@@ -4402,4 +4420,156 @@ img {
 .profile .bottom span.daphop {
   border-left: 0.5px solid #D1D1D1;
   border-right: 0.5px solid #D1D1D1;
+}
+
+.giohang .main_left .head {
+  margin-bottom: 10px;
+}
+.giohang .main_left .head h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
+.giohang .main_left .head span {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 30px;
+  color: #575757;
+}
+.giohang .main_left .content {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.giohang .main_left .content .item {
+  padding: 15px 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+.giohang .main_left .content .item:last-child {
+  border-bottom: none;
+}
+.giohang .main_left .content .item .left .img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+.giohang .main_left .content .item .left .text {
+  width: calc(100% - 100px);
+}
+.giohang .main_left .content .item .left .text span.title {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 5px;
+  display: block;
+}
+.giohang .main_left .content .item .left .text span.number {
+  margin-right: 20px;
+}
+.giohang .main_left .content .item .left .text span.number input {
+  background: #FFFFFF;
+  border: 0.5px solid #969696;
+  border-radius: 30px;
+  height: 30px;
+  width: 63px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #303030;
+  text-align-last: center;
+  text-align: center;
+}
+.giohang .main_left .content .item .left .text span.price-new {
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 20px;
+  color: #FF326C;
+}
+.giohang .main_left .content .item .left .text span.price-old {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: line-through;
+  color: #C3C3C3;
+}
+.giohang .main_left .content .left {
+  width: 500px;
+}
+.giohang .main_left .content .right {
+  width: calc(100% - 500px);
+  text-align: right;
+}
+.giohang .main_left .content .right a.buy, .giohang .main_left .content .right a.delete {
+  background: #F1F1F1;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  margin: 0 5px;
+}
+.giohang .main_left .content .right a.buy img, .giohang .main_left .content .right a.delete img {
+  margin-right: 10px;
+}
+
+.makhuyenmai h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 10px;
+}
+.makhuyenmai .item2 {
+  position: relative;
+}
+.makhuyenmai .item2 .bg {
+  background: url("../img/subtract.png") no-repeat center center;
+  width: 100%;
+  background-size: contain;
+  height: 45px;
+}
+.makhuyenmai .item2 .content {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  right: 30px;
+}
+.makhuyenmai .item2 .content img {
+  margin-right: 10px;
+}
+.makhuyenmai .item2 .content span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2457B6;
+}
+.makhuyenmai .item {
+  position: relative;
+}
+.makhuyenmai .item .bg {
+  background: url("../img/bggiohang.png") no-repeat;
+  width: 100%;
+  background-size: contain;
+  height: 70px;
+}
+.makhuyenmai .item .content {
+  position: absolute;
+  left: 30px;
+  right: 20px;
+  top: 20px;
+}
+.makhuyenmai .item .left {
+  width: 250px;
+  border-right: 1px dashed #2457B6;
+  padding-right: 15px;
+}
+.makhuyenmai .item .left span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.makhuyenmai .item .right button {
+  font-size: 16px;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  color: #2457B6;
 }
