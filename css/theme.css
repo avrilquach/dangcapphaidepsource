@@ -4032,7 +4032,7 @@ img {
   }
 
   .giohang .contentproduct .item {
-    width: 222px;
+    width: 222px !important;
   }
 }
 .feed .right {
