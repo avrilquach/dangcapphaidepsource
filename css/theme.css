@@ -3910,7 +3910,7 @@ img {
 }
 .tag ul li a {
   padding: 10px 0;
-  display: block;
+  display: flex;
   font-size: 14px;
   color: #FFFFFF;
   font-weight: 300;
@@ -3920,7 +3920,8 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: auto;
+  height: 45px;
+  line-height: 16px;
 }
 .tag ul li a.black {
   background: linear-gradient(90.33deg, #C7C7C7 3.36%, #9B9B9B 97.72%);
