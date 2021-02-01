@@ -2140,7 +2140,7 @@ img {
   margin-right: 20px;
 }
 .product .right .promotions .text span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
@@ -2222,6 +2222,10 @@ img {
   font-weight: 300;
   color: #444444;
   margin-bottom: 10px;
+}
+.product .right .description li.first{
+  height: 48px;
+  overflow: hidden;
 }
 .product .right .description li span {
   color: #000;
