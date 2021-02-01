@@ -157,10 +157,22 @@ $(document).ready(function() {
         items: 5,
         nav: true,
     });
-    $(".do-nicescrol li").hover(function(e) {
+    $(".do-nicescrol .alpha li").hover(function(e) {
         var id = $(this).attr("id");
+        id=id.replace("class","");
+        var heightbox = $(".boxscroll").height();
+        var height = 0;
+        if(id == 1){
+            height = 0;
+        }
+        else
+        {
+           for(i=1;i<id;i++){
+               height += $(".class"+i).height();
+           }
+        }
         $('.boxscroll').animate({
-            scrollTop: $("." + id).offset().top
+            scrollTop: height
         }, "faster");
     })
     $('.lazy').lazy();
