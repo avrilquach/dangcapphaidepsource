@@ -96,9 +96,9 @@ $(document).ready(function() {
         $(".popup-address h5").html("Chọn Tỉnh / Thành Phố");
         $("input.text").val("Tìm kiếm Tỉnh / Thành Phố");
         $(".result").addClass("active");
-        $("#thanhpho-popup").show();
+        /*$("#thanhpho-popup").show();
         $("#quan-popup").hide();
-        $("#phuong-popup").hide();
+        $("#phuong-popup").hide();*/
     })
     $(".quan-popup").click(function(e) {
         $('.popup-address').addClass("active");

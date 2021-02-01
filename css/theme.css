@@ -3315,7 +3315,7 @@ img {
   z-index: 16;
   left: 0;
   border-radius: 20px;
-  width: 50%;
+  width: 600px;
   transition: 1s ease-out;
   margin: 0 auto;
   left: 0;
@@ -3348,6 +3348,13 @@ img {
   padding: 15px;
   border-top: 1px solid #e1e1e1;
   margin: 15px 0 0 0;
+}
+.popup-address .detail .pr{
+  overflow: hidden;
+}
+.popup-address .detail .pr .resultall{
+  width: 1710px;
+  display: flex;
 }
 .popup-address .detail .pr .control {
   margin: 0 0 20px 0;
@@ -3389,6 +3396,7 @@ img {
 .popup-address .detail .result {
   opacity: 0;
   transition: opacity 1s linear;
+  width: 570px;
 }
 .popup-address .detail .result.active {
   opacity: 1;
