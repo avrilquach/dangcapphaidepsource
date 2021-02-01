@@ -8,7 +8,19 @@ body ._container {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+body ._container2 {
+  width: 1130px;
+  margin: 0 auto;
+}
+body ._container2 .main_left{
+  width: 750px;
+}
+body ._container2 .sidebar_right{
+  width: 360px;
+}
+._container2 .stylett .head h2{
+  font-size: 14px;
+}
 h1, h2, h3, h4, h5, p, ul, li {
   margin: 0;
   line-height: 1.5;
@@ -1106,9 +1118,8 @@ img {
   color: #575757;
 }
 .magiamgia .bg {
-  background: url("../img/background.jpg") no-repeat center center;
+  background: #f4f5f7;
   width: 100%;
-  height: 76px;
   padding: 10px;
 }
 .magiamgia .bg .row .img {
@@ -1620,7 +1631,7 @@ img {
 
 .thongtinxuathoadon .box p, .ghichudonhang .box p {
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
@@ -1813,7 +1824,7 @@ img {
   margin-right: 15px;
 }
 .thongtindonhang .head h4 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
