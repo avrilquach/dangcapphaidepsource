@@ -2367,6 +2367,10 @@ img {
   position: relative;
   cursor: pointer;
 }
+.product .left .gallery #thumbs .item img{
+  width: 98px;
+  height: 98px;
+}
 .product .left .gallery #thumbs .item.video .play img {
   width: 30px;
   height: 30px;
