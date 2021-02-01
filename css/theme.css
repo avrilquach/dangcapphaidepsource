@@ -3394,12 +3394,12 @@ img {
   color: #fff;
 }
 .popup-address .detail .result {
-  opacity: 0;
-  transition: opacity 1s linear;
+  margin-left: 0;
+  transition: margin 0.5s linear;
   width: 570px;
 }
 .popup-address .detail .result.active {
-  opacity: 1;
+  margin-left: -570px;
 }
 .popup-address .detail .result .item {
   display: flex;

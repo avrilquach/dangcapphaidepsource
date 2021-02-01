@@ -95,50 +95,31 @@ $(document).ready(function() {
         $('.popup-address').addClass("active");
         $(".popup-address h5").html("Chọn Tỉnh / Thành Phố");
         $("input.text").val("Tìm kiếm Tỉnh / Thành Phố");
-        $(".result").addClass("active");
-        /*$("#thanhpho-popup").show();
-        $("#quan-popup").hide();
-        $("#phuong-popup").hide();*/
+        $("#thanhpho-popup").removeClass("active");
+        $("#quan-popup").removeClass("active");
     })
     $(".quan-popup").click(function(e) {
         $('.popup-address').addClass("active");
         $(".popup-address h5").html("Chọn Quận / Huyện");
         $("input.text").val("Tìm kiếm Quận / Huyện");
-        $(".result").addClass("active");
-        $("#thanhpho-popup").hide();
-        $("#quan-popup").show();
-        $("#phuong-popup").hide();
+        $("#thanhpho-popup").addClass("active");
+        $("#quan-popup").removeClass("active");
     })
     $(".phuong-popup").click(function(e) {
         $('.popup-address').addClass("active");
         $(".popup-address h5").html("Chọn Phường / Xã");
         $("input.text").val("Tìm kiếm Phường / Xã");
-        $(".result").addClass("active");
-        $("#thanhpho-popup").hide();
-        $("#quan-popup").hide();
-        $("#phuong-popup").show();
+       
     })
     $("#thanhpho-popup .item").click(function(e) {
-        $(".result").removeClass("active");
-        setTimeout(function() {
-            $(".result").addClass("active");
-        }, 100);
         $(".popup-address h5").html("Chọn Quận / Huyện");
         $("input.text").val("Tìm kiếm Quận / Huyện");
-        $("#thanhpho-popup").hide();
-        $("#quan-popup").show();
-        $("#phuong-popup").hide();
+        $("#thanhpho-popup").addClass("active");
     })
     $("#quan-popup .item").click(function(e) {
-        $(".result").removeClass("active");
-        setTimeout(function() {
-            $(".result").addClass("active");
-        }, 100);
         $(".popup-address h5").html("Chọn Phường / Xã");
         $("input.text").val("Tìm kiếm Phường / Xã");
-        $("#thanhpho-popup").hide();
-        $("#quan-popup").hide();
-        $("#phuong-popup").show();
+        $("#quan-popup").addClass("active");
     })
     $("#phuong-popup .item").click(function(e) {
         $(".popup-address").removeClass("active");
