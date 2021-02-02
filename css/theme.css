@@ -3809,6 +3809,11 @@ img {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #000;
+  display: flex;
+  cursor: pointer;
 }
 ._form_search .box-open ul li a {
   padding: 5px 10px;
@@ -3816,7 +3821,7 @@ img {
   color: #000;
   display: flex;
 }
-._form_search .box-open ul li:hover a {
+._form_search .box-open ul li:hover {
   background: #FF326C;
   color: #fff;
 }
@@ -3824,9 +3829,6 @@ img {
   border-radius: 0;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}
-._form_search input[type=text]:focus ~ .box-open {
-  display: block;
 }
 
 .top_thuong_hieu {

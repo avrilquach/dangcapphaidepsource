@@ -218,5 +218,13 @@ $(document).ready(function() {
 	$(".choosepromotion").click(function(e){
 		$(".popupkm").show();
 		$(".bgkm").show();
-	})
+    })
+    $("._form_search input[type='text']").click(function(e){
+        $("._form_search .box-open").show();
+    })
+    $("._form_search .box-open ul li").click(function(e){
+        $("._form_search .box-open").hide();
+        var html = $(this).html();
+        $("._form_search input[type='text']").val(html);
+    })
 })
