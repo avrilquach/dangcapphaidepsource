@@ -3304,7 +3304,7 @@ img {
 }
 
 .popup-address.active::before {
-  bottom: 0;
+  display: block;
 }
 .popup-address.active .all {
   display: block;
@@ -3317,7 +3317,9 @@ img {
   position: fixed;
   z-index: 14;
   transition: 0.1s ease-out;
-  bottom: -1000px;
+  top: 0;
+  left: 0;
+  display: none;
 }
 .popup-address .all {
   position: absolute;
