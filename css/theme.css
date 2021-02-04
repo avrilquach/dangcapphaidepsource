@@ -3821,7 +3821,7 @@ img {
   border-radius: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  display: block;
+  display: none;
 }
 ._form_search .box-search .tim-thuong-hieu, ._form_search .box-search .tim-danh-muc{
   padding: 15px 30px;
@@ -3859,6 +3859,17 @@ img {
 ._form_search .box-search .tim-san-pham li a span{
   font-size: 15px;
   color: #212121;
+}
+._form_search .box-search .tim-san-pham a.xtc{
+  background: #F5F5F5;
+  border: 1px solid #E3E3E3;
+  border-radius: 20px;
+  width: 380px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto 0 auto;
 }
 ._form_search .box-open span {
   font-weight: 600;
