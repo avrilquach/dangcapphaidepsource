@@ -4916,7 +4916,7 @@ img {
   width: 650px;
   height: 400px;
   position: fixed;
-  top: 100px;
+  top: 20%;
   right: -100%;
   z-index: 90;
   transition: right 1s ease;

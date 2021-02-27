@@ -219,26 +219,24 @@ $(document).ready(function() {
 		$(".popupkm").show();
 		$(".bgkm").show();
     })
-    $("._form_search").hover(
-        function() {
-            $("._form_search .box-open").show();
-            $("._form_search input[type='text']").addClass("focus");
-            $("._form_search_bg").show();
-        }, function() {
-            $("._form_search .box-open").hide();
-            $("._form_search input[type='text']").removeClass("focus");
-            $("._form_search .box-search").hide();
-            
-        }
-      );
+      $("._form_search input[type='text']").click(function(e){
+        $("._form_search input[type='text']").addClass("focus");
+        $("._form_search_bg").show();
+        $("._form_search .box-open").show();
+      })
     $("._form_search .box-open ul li").click(function(e){
         $("._form_search_bg").hide();
         $("._form_search .box-open").hide();
+        $("._form_search input[type='text']").removeClass("focus");
+        $("._form_search .box-search").hide();
         var html = $(this).html();
         $("._form_search input[type='text']").val(html);
     })
     $("._form_search_bg").click(function(e){
         $("._form_search_bg").hide();
+        $("._form_search .box-open").hide();
+        $("._form_search input[type='text']").removeClass("focus");
+        $("._form_search .box-search").hide();
     })
     $("._form_search input[type='text']").keyup(function() {
         $("._form_search .box-search").show();
