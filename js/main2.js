@@ -1,10 +1,24 @@
 $(document).ready(function () {
- gallery_slider();
+  var big = "big";
+  var thumbs = "thumbs";
+  gallery_slider(big, thumbs);
+  var big2 = "big2";
+  var thumbs2 = "thumbs2";
+  gallery_slider(big2, thumbs2);
+  var big3 = "big3";
+  var thumbs3 = "thumbs3";
+  gallery_slider(big3, thumbs3);
+  var big4 = "big4";
+  var thumbs4 = "thumbs4";
+  gallery_slider(big4, thumbs4);
+  var big5 = "big5";
+  var thumbs5 = "thumbs5";
+  gallery_slider(big5, thumbs5);
 });
- function gallery_slider()
+ function gallery_slider(data1, data2)
  {
-     var bigimage = $("#big");
-     var thumbs = $("#thumbs");
+     var bigimage = $("#"+data1);
+     var thumbs = $("#"+data2);
      //var totalslides = 10;
      var syncedSecondary = true;
  

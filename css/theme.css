@@ -2039,6 +2039,23 @@ img {
 .product .right {
   width: 530px;
 }
+.product .right ul.tag-product{
+  display: inline-block;
+  width: 100%;
+}
+.product .right ul.tag-product li{
+  float: left;
+  background: #F5F5F5;
+  border: 0.3px solid #BEBEBE;
+  border-radius: 30px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.product .right ul.tag-product li a{
+  font-weight: 300;
+  font-size: 13px;
+  color: #000;
+}
 .product .right h1 {
   font-size: 25px;
   font-weight: 400;
@@ -2178,7 +2195,7 @@ img {
   mix-blend-mode: luminosity;
 }
 .product .right .options {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .product .right .options .buy_product {
   width: 48%;
@@ -2260,7 +2277,6 @@ img {
 }
 .product .right .size {
   margin-bottom: 20px;
-  /* margin-top: 15px; */
 }
 .product .right .size span {
   font-size: 16px;
@@ -2275,10 +2291,9 @@ img {
   width: 70px;
   height: 35px;
   text-align: center;
-  background: #FFFFFF;
-  border: 0.5px solid #444444;
-  border-radius: 2px;
-  color: #6E6E6E;
+  background: #F9F9F9;
+  border-radius: 5px;
+  color: #444;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2291,28 +2306,30 @@ img {
 .product .right .size li:hover, .product .right .size li.active {
   position: relative;
 }
-.product .right .size li:hover a, .product .right .size li.active a {
-  border: 1px solid #FE2B6D;
-  color: #FE2B6D;
+.product .right .size li a:hover, .product .right .size li a.active{
+  background-color: #FE2B6D;
+  color: #fff;
 }
-.product .right .size li:hover::before, .product .right .size li.active::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-bottom: 20px solid #FE2B6D;
-  border-left: 20px solid transparent;
-  bottom: 1px;
-  right: 1px;
+.product .right .color{
+  margin-bottom: 20px;
 }
-.product .right .size li:hover::after, .product .right .size li.active::after {
-  position: absolute;
-  background: url("../img/icon10.svg") no-repeat;
-  bottom: 5px;
-  right: 3px;
-  content: "";
-  width: 8px;
-  height: 6px;
+.product .right .color span{
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.product .right .color ul li {
+  cursor: pointer;
+}
+.product .right .color ul li span{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.product .right .color ul li span.new, .product .right .color ul li span.old{
+  display: none;
 }
 .product .right .rate {
   margin-right: 20px;
@@ -2338,6 +2355,12 @@ img {
   align-self: flex-start;
   left: 0;
 }
+.product .left .gallery{
+  display: none;
+}
+.product .left .gallery.active{
+  display: block;
+}
 .product .left .gallery .owl-nav {
   position: relative;
 }
@@ -2359,26 +2382,26 @@ img {
   top: -90px;
   text-indent: -9999px;
 }
-.product .left .gallery #big img {
+.product .left .gallery .big img {
   display: block;
   margin: 0 auto;
   width: auto;
   max-width: 100%;
 }
-.product .left .gallery #big .item {
+.product .left .gallery .big .item {
   width: 550px;
   margin: 0 auto;
 }
-.product .left .gallery #big .item.video {
+.product .left .gallery .big .item.video {
   margin: 10px auto 0 10px;
   max-width: -webkit-fit-content;
   max-width: fit-content;
 }
-.product .left .gallery #thumbs {
+.product .left .gallery .thumbs {
   width: 400px;
   margin: 50px auto 0 auto;
 }
-.product .left .gallery #thumbs .item {
+.product .left .gallery .thumbs .item {
   width: 100px;
   height: 100px;
   background: #FFFFFF;
@@ -2388,11 +2411,11 @@ img {
   position: relative;
   cursor: pointer;
 }
-.product .left .gallery #thumbs .item img{
+.product .left .gallery .thumbs .item img{
   width: 98px;
   height: 98px;
 }
-.product .left .gallery #thumbs .item.video .play img {
+.product .left .gallery .thumbs .item.video .play img {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -2400,7 +2423,7 @@ img {
   top: 32px;
   z-index: 2;
 }
-.product .left .gallery #thumbs .item.video .play::after {
+.product .left .gallery .thumbs .item.video .play::after {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;

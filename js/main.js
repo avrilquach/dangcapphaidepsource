@@ -27,14 +27,6 @@ $(document).ready(function() {
         function() {
             $(".bg_header").hide();
         });
-    $(".size li").click(function(e) {
-        $(".size li").removeClass("active");
-        $(this).addClass("active");
-        var old = $(this).find("span.old").html();
-        var data = $(this).find("span.new").html();
-        $(".options .price-new").html(data);
-        $(".options .price-old").html(old);
-    })
     $(".san_pham_da_xem_2 .write").click(function(e) {
         $(".bgpopup").show();
         $(".popup").show();
