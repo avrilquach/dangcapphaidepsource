@@ -1735,6 +1735,18 @@ img {
   padding: 20px;
   position: relative;
 }
+.thongtinsanpham .left .radio {
+  background: #FFFFFF;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  height: 70px;
+}
+.thongtinsanpham .left .radio audio{
+  width: 100%;
+  outline: none;
+  height: 30px;
+}
 .thongtinsanpham .left .content h1, .thongtinsanpham .left .content h2, .thongtinsanpham .left .content h3, .thongtinsanpham .left .content h4, .thongtinsanpham .left .content h5 {
   line-height: 1.2;
 }
@@ -2360,14 +2372,51 @@ img {
   padding: 10px;
   margin-bottom: 20px;
 }
-.product .right .quatang #qt{
+.product .right .quatang{
+  margin-bottom: 20px;
+}
+.product .right .quatang span{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.product .right .quatang #qt {
   width: calc(100% - 120px);
+  position: relative;
+}
+.product .right .quatang #qt span {
   background: #F9F9F9;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 300;
   color: #424242;
-  height: 40px;
+  line-height: 40px;
+  border: #F9F9F9;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.product .right .quatang #qt.active .list-qt{
+  display: block;
+}
+.product .right .quatang #qt .list-qt{
+  position: absolute;
+  background-color: #fff;
+  z-index: 6;
+  height: 250px;
+  overflow: scroll;
+  box-shadow: 0px 2px 18px rgb(0 0 0 / 10%);
+  display: none;
+}
+.product .right .quatang #qt .list-qt .item{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.product .right .quatang #qt .list-qt .item img{
+  width: 50px;
+  height: 50px;
 }
 .product .right .rate {
   margin-right: 20px;

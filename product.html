@@ -381,10 +381,30 @@
             </div>
             <div class="quatang row align-items-center justify-content-between">
               <span>Quà tặng kèm</span>
-              <select id="qt">
-                <option value="">Chọn một tuỳ chọn</option>
-                <option value="123">quà 1</option>
-              </select>
+              <div id="qt"><span>Chọn một tuỳ chọn <img src="img/arrowright.svg" alt=""></span>
+                <div class="list-qt">
+                  <div class="item">
+                    <img src="img/image6.jpg" alt="">
+                    <p>Vitamin C Booster Concentrate 20 ml – Tinh chất làm trắng da, chống lão hóa</p>
+                  </div>
+                  <div class="item">
+                    <img src="img/image6.jpg" alt="">
+                    <p>Vitamin C Booster Concentrate 20 ml – Tinh chất làm trắng da, chống lão hóa</p>
+                  </div>
+                  <div class="item">
+                    <img src="img/image6.jpg" alt="">
+                    <p>Vitamin C Booster Concentrate 20 ml – Tinh chất làm trắng da, chống lão hóa</p>
+                  </div>
+                  <div class="item">
+                    <img src="img/image6.jpg" alt="">
+                    <p>Vitamin C Booster Concentrate 20 ml – Tinh chất làm trắng da, chống lão hóa</p>
+                  </div>
+                  <div class="item">
+                    <img src="img/image6.jpg" alt="">
+                    <p>Vitamin C Booster Concentrate 20 ml – Tinh chất làm trắng da, chống lão hóa</p>
+                  </div>
+                </div>
+                </div>
             </div>
             <span class="options row align-items-center justify-content-between"><a class="buy_product row align-items-center justify-content-center" href="#">Đặt mua</a><a class="add_to_cart row align-items-center justify-content-center" href="#">Thêm vào giỏ hàng</a></span>
             <div class="khuyenmai row align-items-center">
@@ -454,6 +474,12 @@
       <div class="thongtinsanpham">
         <div class="row">
           <div class="left">
+            <div class="radio">
+              <audio controls="">
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.
+              </audio>
+            </div>
             <div class="content" style="height: 1000px; overflow: hidden">
               <div style="display: block; background: #26ae25; color: #ffffff; padding: 10px; text-align: justify;">
                 <p style="text-align: justify;"><strong><em><span style="font-family: helvetica, arial, sans-serif; color: #ffffff;"><a style="color: #ffffff;" href="https://dangcapphaidep.vn/kem-chong-nang-image-spf50-prevention.html">Kem chống nắng Image SPF 50</a> là b</span>iện pháp bảo vệ tối ưu làn da hỗn hợp trước tác hại của tia cực tím, đồng thời nuôi dưỡng làn da khỏe mạnh, giúp da trắng sáng và đẩy lùi lão hóa cấp kì mà không gây bất kì kích ứng nào cho da.</em></strong></p>
@@ -875,6 +901,9 @@
           var data = $(this).find("span.new").html();
           $(".options .price-new").html(data);
           $(".options .price-old").html(old);
+        })
+        $("#qt").click(function(e){
+          $(this).toggleClass("active");
         })
     </script>
   </body>
