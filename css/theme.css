@@ -172,6 +172,7 @@ img {
 }
 ._cart {
   position: relative;
+  cursor: pointer;
 }
 ._cart span {
   position: absolute;
@@ -5063,4 +5064,280 @@ img {
   margin-top: 10px;
   border: none;
   border-radius: 5px;
+}
+.popupgiohang
+{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 400px;
+  background-color: #fff;
+  z-index: 12;
+  height: 100%;
+  display: none;
+}
+.popupgiohang .head{
+  height: 75px;
+  background: #F5F5F5;
+  padding: 0 20px;
+}
+.popupgiohang .head h4{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.popupgiohang .head span{
+  cursor: pointer;
+}
+.popupgiohang .end{
+  height: 100px;
+}
+.popupgiohang .center{
+  min-height: calc(100% - 220px);
+  overflow-y: scroll;
+}
+.popupgiohang .item {
+  margin: 20px;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 20px;
+}
+.popupgiohang .item:last-child{
+  border-bottom: none;
+}
+.popupgiohang .item .product2{
+  width: 70px;
+  height: 70px;
+}
+.popupgiohang .item .text{
+  width: calc(100% - 80px);
+  margin-left: 10px;
+}
+.popupgiohang .item .text .title{
+  font-size: 14px;
+  font-weight: 300;
+  color: #212121;
+  height: 43px;
+  overflow: hidden;
+}
+.popupgiohang .item .text  .price .new{
+  font-size: 14px;
+  font-weight: 400;
+  color: #FE2B6D;
+  margin-right: 20px;
+}
+.popupgiohang .item .text  .price .old{
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: line-through;
+  color: #606060;
+}
+.popupgiohang .item .text  .price{
+  margin-bottom: 5px;
+}
+.popupgiohang .item .text  .number{
+  border-radius: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #000;
+  text-align-last: center;
+  text-align: center;
+  border: 1px solid #A2A2A2;
+  width: 66px;
+  height: 32px;
+  outline: none;
+}
+.popupgiohang .end{
+  margin: 20px;
+}
+.popupgiohang .end .thanhtoan{
+  background: #FE2B6D;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+.popupgiohang .end .tongtien span{
+  font-weight: normal;
+  font-size: 20px;
+  color: #000;
+}
+.popupgiohang .end .tongtien span .tt{
+  color: #FE2B6D;
+}
+.popup-giohang-dn{
+  width: 820px;
+  z-index: 12;  
+  background: #fff;
+  border-radius: 5px;
+  height: 415px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.popup-giohang-dn .left{
+  background: url("../img/bgpopupgh.png") no-repeat;
+  height: 415px;
+  width: 410px;
+}
+.popup-giohang-dn .left .ct{
+  padding: 50px;
+}
+.popup-giohang-dn .left .ct h2{
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.popup-giohang-dn .left .ct p{
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+} 
+.popup-giohang-dn .left .ct .btn-facebook{
+  background: #437BCE;
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 1px solid #437BCE;
+  color: #fff;
+}
+.popup-giohang-dn .left .ct .btn-facebook img, .popup-giohang-dn .left .ct .btn-google img{
+  margin-right: 10px;
+}
+.popup-giohang-dn .left .ct .btn-google{
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+}
+.popup-giohang-dn span.close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.popup-giohang-dn .right{
+  width: 410px;
+}
+.popup-giohang-dn .right .input{
+  position: relative;
+  border: 1px solid #C5C5C5;
+  border-radius: 5px;
+  width: 336px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.popup-giohang-dn .right .input span{
+  background: #F2F0F0;
+  border-radius: 5px 0px 0px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.popup-giohang-dn .right .input input{
+  margin-left: 80px;
+  width: calc( 336px - 90px);
+  border: none;
+  height: 44px;
+  color: #9F9F9F;
+  font-weight: 400;
+  font-size: 15px;
+}
+.popup-giohang-dn .right button{
+  width: 336px;
+  height: 45px;   
+  background: #FF326C;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.popup-ma-otp{
+  width: 620px;
+  z-index: 12;  
+  background: #fff;
+  border-radius: 5px;
+  height: 400px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.popup-ma-otp .close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.popup-ma-otp .change-phone
+{
+  position: absolute;
+  background: #F5F5F5;
+  border-radius: 0px 0px 5px 5px;
+  bottom: 0;
+  height: 55px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+.popup-ma-otp .ct
+{
+  margin-top: -30px;
+}
+.popup-ma-otp .ct h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.popup-ma-otp .ct form input{
+  background: #ECECEC;
+  border-radius: 5px;
+  width: 75px;
+  height: 65px;
+  border: none;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+.popup-ma-otp .ct  p{
+  font-size: 16px;
+  color: #000;
+}
+.popup-ma-otp .ct  .send-otp 
+{
+  margin-top: 10px;
+}
+.popup-ma-otp .ct  .send-otp span{
+  color: #FF326C;
+}
+.popup-ma-otp .ct  .send-otp a{
+  display: none;
+  width: 105px;
+  height: 30px;
+  background: #FF326C;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
 }
