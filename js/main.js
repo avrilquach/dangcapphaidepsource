@@ -20,6 +20,15 @@ $(document).ready(function() {
         nav: true,
         autoplay: true,
     });
+    var hinhdanhgia  = $(".hinh-bai-danh-gia .owl-carousel");
+    hinhdanhgia.owlCarousel({
+        center: true,
+        items: 6,
+        loop: true,
+        nav: true,
+        autoplay: true,
+        margin: 25
+    });
     $('#header .menu ul > li.dropdown').hover(
         function() {
             $(".bg_header").show();
