@@ -220,6 +220,10 @@ $(document).ready(function() {
 		$(".popupkm").show();
 		$(".bgkm").show();
     })
+    $(".coupon").click(function(e){
+		$(".popupkm").show();
+		$(".bgkm").show();
+    })
       $("._form_search input[type='text']").click(function(e){
         $("._form_search input[type='text']").addClass("focus");
         $("._form_search_bg").show();

@@ -2419,6 +2419,51 @@ img {
   width: 50px;
   height: 50px;
 }
+.product .right .coupon .item{
+  cursor: pointer;
+  padding: 3px 20px;
+  border: 1px solid #FE2B6D;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #FE2B6D;
+  position: relative;
+  margin: 8px 12px 0px 0px;
+}
+.product .right .coupon{
+  display: flex;
+    padding: 0px 4px 0px 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.product .right .coupon .item::after {
+  right: -6px;
+  transform: rotate(
+135deg
+);
+}
+.product .right .coupon .item::before, .product .right .coupon .item::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent #FE2B6D #FE2B6D transparent;
+  border-image: initial;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+.product .right .coupon .item::before{
+  left: -6px;
+  transform: rotate(
+-45deg
+);
+}
 .product .right .rate {
   margin-right: 20px;
 }
@@ -4941,6 +4986,12 @@ img {
   border-radius: 5px;
   padding: 30px;
   margin: 0 5px 15px 5px;
+  position: relative;
+}
+.popupkm .form img{
+  position: absolute;
+  top: 42px;
+  left: 40px;
 }
 .popupkm .form input {
   background: #FFFFFF;
@@ -4948,7 +4999,7 @@ img {
   border-radius: 5px;
   width: 395px;
   height: 42px;
-  padding: 0 10px;
+  padding: 0 10px 0 40px;
   font-size: 16px;
   font-weight: 300;
   color: #a3a3a3;
@@ -4968,6 +5019,8 @@ img {
   padding: 10px 40px;
   height: 114px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 .popupkm .list .item .left {
   width: 380px;
@@ -4998,19 +5051,68 @@ img {
 .popupkm .list .item .left .chuy {
   position: relative;
 }
-.popupkm .list .item .left .chuy:hover .note {
+.popupkm .list .item .left .chuy.active .note {
   display: block;
 }
 .popupkm .list .item .left .chuy .note {
   position: absolute;
-  background: url("../img/Union.png") no-repeat;
-  width: 419px;
-  height: 213px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
   z-index: 10;
   left: -225px;
-  top: 5px;
-  padding: 50px;
+  justify-content: center;
+  align-items: center;
   display: none;
+  width: 370px;
+  height: 175px;
+  margin-top: 10px;
+}
+.popupkm .list .item .left .chuy .note .top{
+  background: #F5F5F5;
+  margin-top: 10px;
+  padding: 5px 20px;
+}
+.popupkm .list .item .left .chuy .note .top span:first-child{
+  font-size: 14px;
+  font-weight: 300;
+  color: #636363;
+}
+.popupkm .list .item .left .chuy .note .top span:nth-child(2){
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  margin-left: 20px;
+}
+.popupkm .list .item .left .chuy .note .middle{
+  padding: 10px 20px;
+}
+.popupkm .list .item .left .chuy .note .middle span:first-child,.popupkm .list .item .left .chuy .note .bottom span:first-child{
+  font-size: 14px;
+  font-weight: 300;
+  color: #636363;
+  text-decoration: underline;
+}
+.popupkm .list .item .left .chuy .note .middle span:last-child{
+  font-size: 15px;
+  font-weight: 300;
+  color: #5A5A5A;
+  margin-left: 20px;
+}
+
+.popupkm .list .item .left .chuy .note .top img{
+  margin-left: 20px;
+}
+.popupkm .list .item .left .chuy .note::before{
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  top: -10px;
+  left: 227px;
+  position: absolute;
 }
 .popupkm .list .item .left .chuy .note .top span:nth-child(1) {
   font-size: 14px;
@@ -5024,22 +5126,30 @@ img {
   color: #000;
 }
 .popupkm .list .item .left .chuy .note .bottom {
-  border-top: 0.5px solid #CACACA;
-  padding-top: 10px;
-  margin-top: 10px;
-}
-.popupkm .list .item .left .chuy .note .bottom span {
-  font-size: 14px;
-  font-weight: 300;
-  color: #525252;
-  display: block;
-  margin-bottom: 5px;
+  padding: 0 20px 10px 20px;
 }
 .popupkm .list .item .left .chuy .note .bottom p {
   font-size: 14px;
   font-weight: 300;
   color: #000;
 }
+.popupkm .list .item .right{
+  padding-left: 20px;
+}
+.popupkm .list .item .right button{
+  background: #2457B6;
+  border-radius: 5px;
+  width: 115px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: none; 
+}
+
 .popup-pro{
   background: url("../img/Desktop1.jpg") no-repeat;
   width: 650px;
