@@ -2783,7 +2783,7 @@ img {
 .main-banner {
   position: relative;
 }
-.main-banner .owl-nav .owl-next {
+.main-banner .owl-nav .owl-next, .news-top .owl-nav .owl-next {
   background: url("../img/next.svg") no-repeat;
   width: 26px;
   height: 83px;
@@ -2792,7 +2792,7 @@ img {
   top: 40%;
   text-indent: -9999px;
 }
-.main-banner .owl-nav .owl-prev {
+.main-banner .owl-nav .owl-prev, .news-top .owl-nav .owl-prev {
   background: url("../img/prev.svg") no-repeat;
   width: 26px;
   height: 83px;
@@ -5474,24 +5474,7 @@ img {
   margin-bottom: 25px;
   position: relative;
 }
-.news-top .owl-nav .owl-next {
-  background: url("../img/right.svg") no-repeat;
-  width: 20px;
-  height: 45px;
-  position: absolute;
-  bottom: 25px;
-  right: 26%;
-  text-indent: -9999px;
-}
-.news-top .owl-nav .owl-prev {
-  background: url("../img/left.svg") no-repeat;
-  width: 20px;
-  height: 45px;
-  position: absolute;
-  bottom: 25px;
-  left: 23%;
-  text-indent: -9999px;
-}
+
 .news-top .owl-item {
   padding-right: 30px;
   position: relative;
@@ -5527,6 +5510,7 @@ img {
   margin-bottom: 10px;
   height: 60px;
   overflow: hidden;
+  width: 80%;
 }
 .news-top .item .caption ul li img{
   width: 13px;
