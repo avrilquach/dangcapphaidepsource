@@ -5562,8 +5562,15 @@ img {
   color: #212121;
   line-height: 25px;
   margin-bottom: 10px;
-  height: 50px;
+  height: auto;
   overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.news_style .col-md-3 h2.style1{
+  font-size: 15px;
 }
 .news_style img.main{
   border-radius: 10px;
