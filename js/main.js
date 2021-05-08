@@ -216,6 +216,10 @@ $(document).ready(function() {
 		$(".popupkm").hide();
 		$(".bgkm").hide();
 	})
+    $(".popup-review .close").click(function(e){
+		$(".popup-review").hide();
+		$(".bgkm").hide();
+	})
 	$(".choosepromotion").click(function(e){
 		$(".popupkm").show();
 		$(".bgkm").show();
