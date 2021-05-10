@@ -780,11 +780,8 @@
 				<div class="c">
 					<h4>Uy tín lắm nha</h4>
 					<p>Đầu tiên là hàng đc bọc khá ổn ko gọi là kĩ nhưng cũng khá chắc chắn chất của em này là gel đặc rất thơm luôn shipper thì rất vui tính và thân thiện tuy muộn mất mấy ngày vì mình ko cầm đt theo nhưng anh cx ko</p>
-          <div class="popup-gallery">
-            <a class="gallery-review"> <img  src="img/review.png" width="155" height="130"></a>
-            <a class="gallery-review">  <img  src="img/review.png" width="155" height="130"></a>
-            <a class="gallery-review"> <img src="img/review.png" width="155" height="130"></a>
-          </div>
+          <div class="popup-gallery"><a> <img class="gallery2" src="https://unsplash.it/1200/800?image=841" width="155" height="130"></a><a> <img class="gallery2" src="https://unsplash.it/1200/800?image=841" width="155" height="130"></a><a> <img class="gallery2" src="https://unsplash.it/1200/800?image=841" width="155" height="130"></a></div>
+
 					<div class="row align-items-center">
 						<a class="huuich row algin-items-center">
 							<img src="img/huuich.svg" alt=""/>
@@ -1216,6 +1213,9 @@
     <script type="text/javascript" src="js/jquery.gallerybox.js"></script>
     <script type="text/javascript" src="js/main2.js"></script>
     <script>
+      $(document).ready(function () {
+        $('.gallery2').gallerybox();
+        });
         setTimeout(() => {
           $(".popup-pro").addClass("active");
         }, 5000);
@@ -1251,7 +1251,7 @@
         $(".reviewvote .send-comment").click(function(e){
           $(".comments-review").show();
         })
-        $(".popup-gallery a.gallery-review").click(function(e){
+        $(".hinh-bai-danh-gia .item").click(function(e){
           $(".bgkm").show();
           $(".popup-review").show();
         })
