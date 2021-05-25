@@ -628,6 +628,40 @@
       </div>
     </div>
     <div class="_container">
+      <div class="show-room">
+        <div class="head">
+          <h3>showroom</h3>
+        </div>
+        <div class="showroom-slider owl-carousel owl-theme">
+          <div class="item">
+            <a href="#">
+              <img src="img/showroom1.png" alt="">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="img/showroom1.png" alt="">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="img/showroom1.png" alt="">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="img/showroom1.png" alt="">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="img/showroom1.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="_container">
       <div class="styleproduct">
         <h3>sản phẩm  cùng thương hiệu</h3>
       </div>
@@ -1255,6 +1289,14 @@
           $(".bgkm").show();
           $(".popup-review").show();
         })
+        var showroom = $(".showroom-slider");
+        showroom.owlCarousel({
+            autoWidth:true,
+            loop: false,
+            nav: true,
+            autoplay: true,
+            margin: 25,
+        });
     </script>
   </body>
 </html>
